@@ -9,18 +9,18 @@
 <!-- Start your code here -->
 <!-- X軸よ永遠に -->
   <script>
-    var pas=prompt("パスワードを入力してください")
-    var name=prompt("ユーザー名を入力してください")
+    //var pas=prompt("パスワードを入力してください")
+    //var name=prompt("ユーザー名を入力してください")
     if(pas==="X軸よ永遠に" && name==="SOSO"){
-      alert("これは私がほとんど好奇心で作ったものです。今回はサイトをより便利にしました。")
-      document.write("あなたはX軸協会の会員です")
-    }
-    if(pas==="X軸よ永遠に" && name==="123456789aA"){
       alert("これは私がほとんど好奇心で作ったものです。今回はサイトをより便利にしました。")
       document.write("あなたはX軸協会の会員です")
     }
     if(pas==="X軸よ永遠に" && name==="taiki"){
       document.write("あなたはX軸協会の会長です")
+    }
+    if(pas==="X軸よ永遠に" && name==="123456789aA"){
+      alert("これは私がほとんど好奇心で作ったものです。今回はサイトをより便利にしました。")
+      document.write("あなたはX軸協会の会員です")
     }
   </script>
   <div class="top">
@@ -54,6 +54,17 @@
     <p>開設日　2020年4月26日 , 会員数2名</p>
     <h3>会長からのお知らせ</h3>
     <p>しばらくは一に一回このサイトを更新します。更新は右にお知らせします。</p>
+  </div>
+  <div class="form">
+    <p>決めたユーザー名をここに入力、下にメールアドレスを入力することでも入会できます。</p>
+    <from action="https://x202041.github.io/c/" method="POST">
+      <input type="text" name="name"/>
+    </from>
+    <p></p>
+    <from action="https://x202041.github.io/c/" method="POST">
+      <input type="text" name="email"/>
+      <input type="submit" value="送信"/>
+    </from>
   </div>
 </body>
 </html>
