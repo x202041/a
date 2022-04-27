@@ -1,8 +1,8 @@
 .top{
   font-size:20px;
-  color:#FF0000;
+  color:#000000;
   padding:1px 1px 1px 300px;
-  background-color: #0000FF;
+  background-color: #00FFFF;
 }
 .topsub{
   padding:1px 1px 1px 290px;
@@ -30,4 +30,20 @@ span{
   height: 175px;
   background-color:#00FFFF;
   float:right;
+}
+.sola{
+  font-size:15px;
+}
+.info{
+  width:550px;
+  height:300px;
+  padding:30px 10px 1px 10px;
+  background-color:#FFFF00;
+}
+.update{
+  float:right;
+  width:300px;
+  height:320px;
+  padding:10px 10px 1px 1px;
+  background-color:#FFFACD;
 }
