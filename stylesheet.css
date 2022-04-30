@@ -27,6 +27,7 @@
   height: 175px;
   background-color:#00FFFF;
   float:right;
+  font-size:22px;
 }
 .sola{
   font-size:15px;
@@ -43,4 +44,28 @@
   height:320px;
   padding:10px 10px 1px 1px;
   background-color:#FFFACD;
+}
+.merit{
+  width:400px;
+  height:300px;
+  border:2px solid blue;
+}
+.merit span{
+  font-size:5px;
+}
+.important{
+  background-color:#FFC0CB;
+  font-weight:1000;
+  font-size:22px;
+}
+.terms{
+  margin:22px 0px 0px 0px;
+  float:right;
+  width:400px;
+  height:302px;
+  border:5px solid red;
+}
+.terxt{
+  background-color:#FFC0CB;
+  font-size:20px;
 }
