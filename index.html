@@ -9,23 +9,27 @@
 <!-- Start your code here -->
 <!-- X軸よ永遠に -->
   <script>
-    var pas=prompt("パスワードを入力してください")
-    var name=prompt("ユーザー名を入力してください")
-    if(pas==="X軸よ永遠に" && name==="SOSO"){
-      document.writeln("<pre>")
-      document.writeln("あなたはX軸協会の会員です")
-      document.writeln("新しい会員限定情報があります")
-      document.writeln("</pre>")
-    }else if(pas==="X軸よ永遠に" && name==="taiki"){
-      document.writeln("<pre>")
-      document.writeln("あなたはX軸協会の会長です")
-      document.writeln("新しい会員限定情報があります")
-      document.writeln("</pre>")
-    }else if(pas==="X軸よ永遠に" && name==="123456789aA"){
-      document.writeln("<pre>")
-      document.writeln("あなたはX軸協会の会員です")
-      document.writeln("新しい会員限定情報があります")
-      document.writeln("</pre>")
+    var pas=prompt("パスワードを入力してください");
+    var name=prompt("ユーザー名を入力してください");
+    if(pas==="X軸よ永遠に"){
+      var ans=prompt("[会員限定　今日の問題1]　スライドガラスとカバーガラスを組み合わせて作るものは何?");
+      if(name==="SOSO" || name="123456789aA"){
+      document.writeln("<pre>");
+      document.writeln("あなたはX軸協会の会員です");
+      document.writeln("新しい会員限定情報があります");
+      document.writeln("</pre>");
+        }else if(name="taiki"){
+      document.writeln("<pre>");
+      document.writeln("あなたはX軸協会の会長です");
+      document.writeln("新しい会員限定情報があります");
+      document.writeln("新しい会員限定情報があります");
+      document.writeln("</pre>");
+        }
+      if(ans="プレパラート"){
+        alert("正解です!");
+          }else{
+            alert("違います");
+          }
     }
   </script>
   <div class="top">
@@ -57,6 +61,7 @@
     <p>4/28 会員限定情報を追加しました。</p>
     <p>4/29 入会届のリンクを作成しました。</p>
     <p>4/30 メリット、規則を記述しました。</p>
+    <p>5/01 今日の問題を設定しました。</p>
   </div>
   <div class="info">
     <h2>　・協会情報</h2>
