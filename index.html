@@ -9,10 +9,9 @@
 <!-- Start your code here -->
 <!-- X軸よ永遠に -->
   <script>
-    var pas=prompt("パスワードを入力してください");
-    var name=prompt("ユーザー名を入力してください");
+    //var pas=prompt("パスワードを入力してください");
+    //var name=prompt("ユーザー名を入力してください");
     if(pas==="X軸よ永遠に"){
-      var select=confirm("気まぐれ問題に挑戦しますか?");
       if(name==="SOSO" || name==="123456789aA"){
       document.writeln("<pre>");
       document.writeln("あなたはX軸協会の会員です");
@@ -24,33 +23,7 @@
       document.writeln("新しい会員限定情報があります");
       document.writeln("</pre>");
         }
-      if(select==true){
-      var ans1=prompt("スライドガラスとカバーガラスを組み合わせて作るものは何?");
-      if(ans1==="プレパラート"){
-        alert("正解です!");
-        var ans2=prompt("地球上で経度0度の線を何という?");
-        if(ans2==="本初子午線"){
-          alert("正解です!");
-          var ans3=prompt("「微笑」何と読む?(カタカナでお答えください)");
-          if(ans3==="ビショウ"){
-            alert("正解です!");
-            var ans4=prompt("ラスト　1001を素因数分解すると何＊何＊・・・となる?(小さい数から半角英数でお答え下さい)");
-            if(ans4==="7*11*13"){
-              alert("全問正解です!おめでとう!!");
-            }else{
-              alert("違います");
-            }
-          }else{
-            alert("違います");
-          }
-        }else{
-          alert("違います");
-        }
-          }else{
-            alert("違います");
-        }
-      }
-    }
+     }
   </script>
   <div class="top">
     <h1>X軸協会のすすめ</h1>
@@ -109,6 +82,11 @@
       <a href="https://x202041.github.io/c/">会員限定お知らせ</a>
       <a href="https://forms.gle/ZEmy3TCdGGsWAqKZ8">入会届を作成</a>
       <a href="https://forms.gle/YWTnFmNDQGbYveXB8" class="forms">お問い合わせはこちら</a>
+  </div>
+  <div class="tool">
+    <h3>自作ツール</h3>
+    <a href="https://editor.p5js.org/taiTakik/full/3fw_QybYn">負の数ジェネレーター</a>
+    <a href="https://editor.p5js.org/taiTakik/sketches/U5q1YHOrL">素因数分解機</a>
   </div>
 </body>
 </html>
